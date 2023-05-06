@@ -1,0 +1,23 @@
+.headerWrapper{
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0 0 10px #000;
+}
+.headerInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.headerInner>span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0%, -50%);
+}

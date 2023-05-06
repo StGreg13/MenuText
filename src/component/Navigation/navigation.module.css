@@ -1,0 +1,71 @@
+.navMenu {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.menuIn {
+    color: #535bf2;
+}
+.menuItemWith, .menuItemEmpty {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #151617;
+    padding: 10px 15px;
+    cursor: default;
+}
+.menuItemWith {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.menuItemWith:after {
+    content: url("../../assets/img/arrow-right.svg");
+}
+.menuItemWith:hover {
+    background: rgba(87, 113, 136, 0.10);
+    border-radius: 15px;
+}
+.buttonBack {
+    position: relative;
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    background: none;
+    text-align: left;
+    transition: all 300ms ease;
+}
+.buttonBack:before {
+    content: url("../../assets/img/arrow-right.svg");
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 0;
+    transform: rotate(180deg) translate(0%, 50%);
+}
+.buttonBack:hover {
+    background: rgba(87, 113, 136, 0.10);
+}
+.menuItemLink {
+    margin: 5px 15px 30px 15px;
+}
+.menuItemLink h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151617;
+    margin: 0 0 5px 0;
+}
+.menuItemLink p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #577188;
+    margin: 5px 0 0 0 ;
+}

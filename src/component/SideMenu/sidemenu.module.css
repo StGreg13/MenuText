@@ -1,0 +1,46 @@
+.menuWrapper {
+    position: fixed;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 10;
+    transition: all 300ms ease;
+    overflow: hidden;
+}
+.open {
+    right: 0;
+}
+.menuHeader {
+    position: relative;
+    padding: 10px 12px;
+}
+.close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 16px;
+    right: 18px;
+}
+.navigationMenu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px;
+}
+.menuBottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px;
+}
+.menuBottom a {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #151617;
+}
